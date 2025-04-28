@@ -232,46 +232,49 @@
 // generalisation ---> specialisation
 
 
-class Vehicle
-{
-    constructor(color,currentSpeed,maxSpeed)
-    {
-        this.color=color;
-        this.currentSpeed=currentSpeed;
-        this.maxSpeed=maxSpeed;
-    }
+// class Vehicle
+// {
+//     constructor(color,currentSpeed,maxSpeed)
+//     {
+//         this.color=color;
+//         this.currentSpeed=currentSpeed;
+//         this.maxSpeed=maxSpeed;
+//     }
 
-    move()
-    {
-        console.log("moving at",this.currentSpeed);
-    }
+//     move()
+//     {
+//         console.log("moving at",this.currentSpeed);
+//     }
 
-    accelerate(amount)
-    {
-        this.currentSpeed+=amount;
-    }
-}
+//     accelerate(amount)
+//     {
+//         this.currentSpeed+=amount;
+//     }
+// }
 
-class Motorcycle extends Vehicle{
-    constructor(color,currentSpeed,maxSpeed,fuel)
-    {
+// class Motorcycle extends Vehicle{
+//     constructor(color,currentSpeed,maxSpeed,fuel)
+//     {
 
-        super(color,currentSpeed,maxSpeed);
-        // SUPER--> USED TO INVOKE PARENT CLASS CONSTRUCTOR
+//         super(color,currentSpeed,maxSpeed);
+//         // SUPER--> USED TO INVOKE PARENT CLASS CONSTRUCTOR
 
 
-        this.fuel=fuel;
-    }
+//         this.fuel=fuel;
+//     }
 
-    doWheelie()
-    {
-          console.log("driving on a single wheel !");
-    }
-}
+//     doWheelie()
+//     {
+//           console.log("driving on a single wheel !");
+//     }
+// }
 
-let motor = new Motorcycle("Black",0,250,"gasoline");
-console.log(motor.color);
-motor.accelerate(50);
-motor.move();
+// let motor = new Motorcycle("Black",0,250,"gasoline");
+// console.log(motor.color);
+// motor.accelerate(50);
+// motor.move();
 // TOTAL MEMORY= PARENT+CHILD;
+ 
 
+
+//PROTOTYPES

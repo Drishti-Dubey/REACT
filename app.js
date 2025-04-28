@@ -343,12 +343,13 @@
 
 
 // SET TIMEOUT FUNCTION
-let youGotthis=function ()
-{
-  console.log("keep coding");
-};
+// let youGotthis=function ()
+// {
+//   console.log("keep coding");
+// };
 
-// setTimeout(youGotthis,2000);
-setInterval(youGotthis,2000);
+// // setTimeout(youGotthis,2000);
+// setInterval(youGotthis,2000);
 
 // TO KILL THE PROCESS- CTRL+C
+
