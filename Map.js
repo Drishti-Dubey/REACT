@@ -231,9 +231,43 @@
 
 // ARRAY.INCLUDES
 
-const fruits=["bananna","Oranges","apples","mangoes"];
-console.log(fruits.includes("mangoes"));
+// const fruits=["banana","Oranges","apples","mangoes"];
+// console.log(fruits.includes("mangoes"));
 
-// CHANGES INDEXING
-console.log(fruits.includes("banana",3));
+// // CHANGES INDEXING
+// console.log(fruits.includes("banana",3));
+
+// IT IS CASE SENSITIVE
+
+
+
+
+// TRAILING COMMA{VALID FUNCTION AND OBJECTS ONLY}
+
+// DANGLING OR TERMINAL COMMA
+
+
+// const arr=[
+//     "1","2","3",
+// ];
+
+// // IF MORE THAN ONE COMMA THEN UNDEFINED EROOR IS THROWN
+
+// const sparseArray=[1,,,4,5,,];
+// // length 6
+
+// const arr1=[,];
+// length 1
+
+
+// elements not written==> undefined
+
+// const person=
+// {
+// fname:"John",,age:30,
+// }
+
+
+//SHOWS SYNTAX ERROR
+
 
