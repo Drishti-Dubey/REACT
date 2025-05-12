@@ -322,10 +322,10 @@
 // ANONYMOUS FUNCTION
 
 
- let functionVariable = function()
- {
-  console.log("NOT SO SECRET THOUGH");
- };
+//  let functionVariable = function()
+//  {
+//   console.log("NOT SO SECRET THOUGH");
+//  };
 //  functionVariable();
 
 

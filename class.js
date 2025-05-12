@@ -277,4 +277,33 @@
  
 
 
+
+
+
+
 //PROTOTYPES
+
+
+// class Person
+// {
+//     constructor(fname,lname)
+//     {
+//         this.fname=fname;
+//         this.lname=lname;
+//     }
+//     greet()
+//     {
+//         console.log("HELLO!!");
+//     }
+
+
+//   Person.prototype.introduce=function()
+//   {
+//     console.log("Hi, I'm this.f_name");
+//   };
+
+//   Person.prototype.favcolor="blue";
+// }
+//   let p= new Person("Maria","Dubey");
+//   console.log(p.favcolor);
+//   p.introduce();
